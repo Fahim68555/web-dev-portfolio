@@ -37,9 +37,10 @@
         }
     /* header */
     .header{
-        background-image: url('../images/developer.png'), url('../images/header_bg.png');
+        background-image: url('../images/developer.png'),url('../images/header_bg.png');
         background-repeat:no-repeat;
         background-position: top left,bottom right;
+        margin-top: 0px;
     
        
       
@@ -146,4 +147,36 @@ main section{
     margin-bottom: 50px;
 }
 
-  
+/* resume section styles */
+.resume-container{
+    display:flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description , .experience-sub-title{
+    color: #757575;
+}
+.resume hr {
+margin: 30px 5px;
+}
+.download-cv{
+    margin-top: 50px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight:600px;
+}
+.resume-column-title{
+    font-size: 25px;
+    font-weight:600px;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight:600px;
+    margin-bottom: 128PX;
+}
